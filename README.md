@@ -9,27 +9,28 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 The code will look like the following:
 
+  ```
     /**
    * Run the LCD example.
    */
-  public final void runExample(){
-  /// Clear the display
- handler.clear();
- /// Cursor to home position (0,0)
- handler.setHome();
- /// Write to the first line.
- handler.write("-- RASPI3JAVA --");
+     public final void runExample(){
+    /// Clear the display
+    handler.clear();
+   /// Cursor to home position (0,0)
+    handler.setHome();
+  /// Write to the first line.
+   handler.write("-- RASPI3JAVA --");
  /// Create a time format for output
- SimpleDateFormat formatter = new
- SimpleDateFormat("HH:mm:ss");
+   SimpleDateFormat formatter = new
+   SimpleDateFormat("HH:mm:ss");
  /// Sets the cursor on the second line at the first
- position.
- handler.setCursor(1, 0);
+   position.
+   handler.setCursor(1, 0);
  /// Write the current time in the set format.
- handler.write("--- " + formatter.format(new Date()) +
+   handler.write("--- " + formatter.format(new Date()) +
  " ---");
  }
-
+```
 
 ## Related Products
 * [Raspberry Pi Projects for Kids - Second Edition)](https://www.packtpub.com/hardware-and-creative/raspberry-pi-projects-kids-second-edition?utm_source=repository&utm_medium=github&utm_campaign=repository&utm_term=9781785281525)
