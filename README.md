@@ -11,25 +11,25 @@ The code will look like the following:
 
   ```
     /**
-   * Run the LCD example.
-   */
+    * Run the LCD example.
+    */
      public final void runExample(){
     /// Clear the display
     handler.clear();
    /// Cursor to home position (0,0)
     handler.setHome();
-  /// Write to the first line.
-   handler.write("-- RASPI3JAVA --");
- /// Create a time format for output
+   /// Write to the first line.
+    handler.write("-- RASPI3JAVA --");
+   /// Create a time format for output
    SimpleDateFormat formatter = new
    SimpleDateFormat("HH:mm:ss");
- /// Sets the cursor on the second line at the first
+  /// Sets the cursor on the second line at the first
    position.
    handler.setCursor(1, 0);
- /// Write the current time in the set format.
+  /// Write the current time in the set format.
    handler.write("--- " + formatter.format(new Date()) +
- " ---");
- }
+  " ---");
+  }
 ```
 
 ## Related Products
