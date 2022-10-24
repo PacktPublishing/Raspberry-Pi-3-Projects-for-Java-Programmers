@@ -44,3 +44,7 @@ The code will look like the following:
 
 * [Raspberry Pi Cookbook for Python Programmers](https://www.packtpub.com/hardware-and-creative/raspberry-pi-cookbook-python-programmers?utm_source=repository&utm_medium=github&utm_campaign=repository&utm_term=9781849696623)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781786462121">https://packt.link/free-ebook/9781786462121 </a> </p>
